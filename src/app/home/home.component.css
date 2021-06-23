@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    background: greenyellow;
 }
 p{
     font-size: 6em;
@@ -13,4 +12,5 @@ p{
     top: 50%;
     left: 50%;
     transform: translateX(-10%) translateY(-50%);
+    position: static;
 }

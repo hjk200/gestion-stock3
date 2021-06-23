@@ -1,5 +1,31 @@
-<div>
-    <div>Bonjour et bienvenue</div>
-</div>
-<button class="btn btn-primary">Test</button>
 
+<div class="container">
+    <div class="row">
+      <div class="col align-self-start">
+        
+      </div>
+      <div class="col align-self-center" style="color:blue;">
+        bonjour et Bienvenue
+      </div>
+      <div class="col align-self-end">
+        
+      </div>
+    </div>
+  </div>
+  <div class="text-center">
+  <button type="button"  onclick="window.location.href = 'https://fr.w3docs.com/';" class="btn btn-primary btn-lg"  style="color:yellowgreen;">test</button>
+  <img src="../20200804_091735.jpg"  width="300" height="200" style="float:left"/>
+</div>
+ 
+<div style="text-align:center">
+  <h2>
+      Country list from local json file...
+  </h2>
+  <ul *ngFor="let item of countryList">
+     <li>
+        <h3>Country Name :{{item.name}}, Code: {{item.code}}</h3>
+     </li>
+  </ul>
+</div>
+
+ 
